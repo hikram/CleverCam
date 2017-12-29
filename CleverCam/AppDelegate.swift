@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  CleverCam
 //
-//  Created by Hashim Ikram on 28/12/2017.
+//  Created by Hashim Ikram on 13/12/2017.
 //  Copyright © 2017 Hashim Ikram. All rights reserved.
 //
 

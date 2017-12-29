@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		544942021FF6962D0077D16D /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 544942011FF6962D0077D16D /* Resnet50.mlmodel */; };
 		544EC3C01FF52A0A0051052C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544EC3BF1FF52A0A0051052C /* AppDelegate.swift */; };
 		544EC3C21FF52A0A0051052C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544EC3C11FF52A0A0051052C /* ViewController.swift */; };
 		544EC3C51FF52A0A0051052C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544EC3C31FF52A0A0051052C /* Main.storyboard */; };
 		544EC3C71FF52A0A0051052C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 544EC3C61FF52A0A0051052C /* Assets.xcassets */; };
 		544EC3CA1FF52A0A0051052C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544EC3C81FF52A0A0051052C /* LaunchScreen.storyboard */; };
+		544EC3D21FF68F350051052C /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 544EC3D11FF68F350051052C /* SqueezeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		544942011FF6962D0077D16D /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 		544EC3BC1FF52A0A0051052C /* CleverCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleverCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		544EC3BF1FF52A0A0051052C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		544EC3C11FF52A0A0051052C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		544EC3C61FF52A0A0051052C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		544EC3C91FF52A0A0051052C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		544EC3CB1FF52A0A0051052C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		544EC3D11FF68F350051052C /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				544EC3BF1FF52A0A0051052C /* AppDelegate.swift */,
+				544942011FF6962D0077D16D /* Resnet50.mlmodel */,
+				544EC3D11FF68F350051052C /* SqueezeNet.mlmodel */,
 				544EC3C11FF52A0A0051052C /* ViewController.swift */,
 				544EC3C31FF52A0A0051052C /* Main.storyboard */,
 				544EC3C61FF52A0A0051052C /* Assets.xcassets */,
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				544EC3C21FF52A0A0051052C /* ViewController.swift in Sources */,
+				544EC3D21FF68F350051052C /* SqueezeNet.mlmodel in Sources */,
+				544942021FF6962D0077D16D /* Resnet50.mlmodel in Sources */,
 				544EC3C01FF52A0A0051052C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,11 +285,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2553ZXAMLS;
 				INFOPLIST_FILE = CleverCam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hashimikram.CleverCam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -292,11 +301,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2553ZXAMLS;
 				INFOPLIST_FILE = CleverCam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hashimikram.CleverCam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
